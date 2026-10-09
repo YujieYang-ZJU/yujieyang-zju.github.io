@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Yujie Yang"
-excerpt: "Yujie Yang is a Ph.D. student at Zhejiang University."
+excerpt: "Yujie Yang is a Ph.D. student in Control Science and Engineering at Zhejiang University, researching energy management for fuel cell hybrid power systems."
 author_profile: true
 redirect_from:
   - /about/
@@ -10,13 +10,13 @@ redirect_from:
 
 <h1 id="about-me">About Me</h1>
 
-I am **Yujie Yang**, a Ph.D. student at **Zhejiang University**.
+I am currently a Ph.D. student in Control Science and Engineering at **Zhejiang University**, Hangzhou, China, under the supervision of **Prof. Yang Zhu** and **Prof. Lei Wang**. I am a member of **Prof. Hongye Su**'s research group.
 
-<p class="coming-soon">More information about my research and academic background will be added soon.</p>
+Previously, I received a B.Eng. degree in Electronic Information Engineering from **Zhejiang Gongshang University**, Hangzhou, China, and a B.Eng. degree in Robotics and Electrical Engineering from the **University of Sussex**, Brighton, United Kingdom, both in 2025.
 
 <h1 id="research">Research</h1>
 
-<p class="coming-soon">Research interests and projects will be added soon.</p>
+My research focuses on **energy management for fuel cell hybrid power systems**.
 
 <h1 id="news">News</h1>
 
@@ -29,7 +29,13 @@ I am **Yujie Yang**, a Ph.D. student at **Zhejiang University**.
 <h1 id="education">Education</h1>
 
 **Zhejiang University**<br>
-Ph.D. student · Current
+Ph.D. student in Control Science and Engineering · Current
+
+**Zhejiang Gongshang University**<br>
+B.Eng. in Electronic Information Engineering · 2025
+
+**University of Sussex**<br>
+B.Eng. in Robotics and Electrical Engineering · 2025
 
 <h1 id="honors">Honors and Awards</h1>
 

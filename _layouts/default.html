@@ -1,9 +1,8 @@
 ---
-layout: compress
 ---
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="{{ site.locale | default: 'en' }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
@@ -26,6 +25,12 @@ layout: compress
         </div>
       </article>
     </div>
+
+    <footer class="homepage-footer">
+      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.
+      Powered by <a href="https://jekyllrb.com/">Jekyll</a> and
+      <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a>.
+    </footer>
 
     {% include scripts.html %}
 

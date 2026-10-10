@@ -225,6 +225,11 @@ h1:before, .anchor:before {
         }
     }
 
+    &__figures--lstm {
+        grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+        align-items: center;
+    }
+
     &__figure-label {
         display: block;
         margin-top: .25rem;

@@ -68,6 +68,54 @@ My research focuses on **energy management for fuel cell hybrid power systems**.
   <p class="publication-citation__status" role="status" aria-live="polite"></p>
 </dialog>
 
+<article class="publication-card" aria-labelledby="lstm-nmpc-publication-title">
+  <div class="publication-card__image">
+    <div class="publication-card__figures publication-card__figures--lstm">
+      <a href="{{ '/images/lstm-nmpc-control.png' | relative_url }}" title="Fig. 2. Control diagram of the LSTM-based NMPC strategy" aria-label="Enlarge Fig. 2: LSTM-based NMPC control strategy">
+        <img src="{{ '/images/lstm-nmpc-control.png' | relative_url }}" alt="LSTM-based nonlinear model predictive control diagram with IPSO rolling optimization and PEMFC thermal management feedback" loading="lazy" width="1095" height="440">
+        <span class="publication-card__figure-label">Fig. 2</span>
+      </a>
+      <a href="{{ '/images/lstm-nmpc-temperature-tracking.png' | relative_url }}" title="Fig. 6. Simulation results comparison of PID, LMPC and NMPC controllers" aria-label="Enlarge Fig. 6: PID, LMPC and NMPC temperature tracking comparison">
+        <img src="{{ '/images/lstm-nmpc-temperature-tracking.png' | relative_url }}" alt="Outlet temperature tracking for PID, linear MPC and LSTM-based NMPC, with a detail inset and temperature reference" loading="lazy" width="1110" height="885">
+        <span class="publication-card__figure-label">Fig. 6</span>
+      </a>
+    </div>
+    <p class="publication-card__image-hint">Click a figure to enlarge</p>
+    <span class="publication-card__badge">IAI 2025</span>
+  </div>
+  <div class="publication-card__content">
+    <h2 id="lstm-nmpc-publication-title" class="publication-card__title"><a href="https://ieeexplore.ieee.org/document/11276989" target="_blank" rel="noopener noreferrer">LSTM-Based Nonlinear Model Predictive Control for Thermal Management of Proton Exchange Membrane Fuel Cells</a></h2>
+    <p class="publication-card__authors"><strong>Yujie Yang</strong>, Haisong Xu, Lei Wang, Yang Zhu, Hongye Su</p>
+    <p class="publication-card__venue"><em>2025 7th International Conference on Industrial Artificial Intelligence (IAI)</em>, Shenyang, China, pp. 1–6, 2025.</p>
+    <div class="publication-card__actions">
+      <a class="publication-card__button" href="https://ieeexplore.ieee.org/document/11276989" target="_blank" rel="noopener noreferrer">PDF</a>
+      <a class="publication-card__button" href="{{ '/files/yang2025lstm.bib' | relative_url }}" data-citation-dialog="lstm-nmpc-citation" aria-haspopup="dialog" aria-controls="lstm-nmpc-citation">Cite</a>
+    </div>
+    <p class="publication-card__doi"><a href="https://doi.org/10.1109/IAI68403.2025.11276989" target="_blank" rel="noopener noreferrer">DOI: 10.1109/IAI68403.2025.11276989</a></p>
+  </div>
+</article>
+
+<dialog id="lstm-nmpc-citation" class="publication-citation" aria-labelledby="lstm-nmpc-citation-title">
+  <h2 id="lstm-nmpc-citation-title">BibTeX Citation</h2>
+  <pre><code>{% raw %}@inproceedings{yang2025lstm,
+  author = {Yang, Yujie and Xu, Haisong and Wang, Lei and Zhu, Yang and Su, Hongye},
+  title = {{LSTM}-Based Nonlinear Model Predictive Control for Thermal Management of Proton Exchange Membrane Fuel Cells},
+  booktitle = {2025 7th International Conference on Industrial Artificial Intelligence ({IAI})},
+  year = {2025},
+  pages = {1--6},
+  address = {Shenyang, China},
+  publisher = {IEEE},
+  doi = {10.1109/IAI68403.2025.11276989},
+  url = {https://ieeexplore.ieee.org/document/11276989}
+}{% endraw %}</code></pre>
+  <div class="publication-citation__actions">
+    <button type="button" class="publication-card__button" data-copy-citation>Copy citation</button>
+    <a href="{{ '/files/yang2025lstm.bib' | relative_url }}" download>Download .bib</a>
+    <form method="dialog"><button class="publication-card__button" aria-label="Close citation">Close</button></form>
+  </div>
+  <p class="publication-citation__status" role="status" aria-live="polite"></p>
+</dialog>
+
 <h1 id="projects">Projects</h1>
 
 <div class="homepage-project">

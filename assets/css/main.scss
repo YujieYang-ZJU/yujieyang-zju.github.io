@@ -123,3 +123,60 @@ h1:before, .anchor:before {
 .page__content h1 {
     scroll-margin-top: 5rem;
 }
+
+.homepage-project {
+    display: grid;
+    gap: 1.25rem;
+    align-items: start;
+    margin: 1.25rem 0 2rem;
+
+    @include breakpoint($medium) {
+        grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    }
+
+    &__preview {
+        display: block;
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border: 1px solid #e5e7eb;
+            border-radius: 6px;
+        }
+    }
+
+    &__title {
+        display: flex;
+        align-items: center;
+        gap: .6rem;
+        margin: 0 0 .35rem;
+        font-size: 1.25em;
+
+        img {
+            width: 40px;
+            height: 40px;
+            margin: 0;
+        }
+    }
+
+    &__subtitle,
+    &__meta {
+        color: #6b7280;
+    }
+
+    &__subtitle {
+        margin: 0 0 .75rem;
+    }
+
+    &__meta {
+        font-size: .85em;
+    }
+
+    &__links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.25rem;
+        margin-bottom: 0;
+    }
+}

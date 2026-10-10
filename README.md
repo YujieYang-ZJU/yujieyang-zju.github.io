@@ -5,6 +5,7 @@ English academic homepage based on [AcadHomepage](https://github.com/RayeRen/aca
 - Website: https://yujieyang-zju.github.io/
 - Owner: YujieYang-ZJU
 - ORCID: https://orcid.org/0009-0007-3235-2122
+- Featured project: [InkDesk](https://github.com/YujieYang-ZJU/InkDesk), with an editor preview and links to the source and documentation.
 - Confirmed information: Yujie Yang, Ph.D. student in Control Science and Engineering at Zhejiang University; supervised by Prof. Yang Zhu and Prof. Lei Wang in Prof. Hongye Su's research group. B.Eng. degrees from Zhejiang Gongshang University and the University of Sussex (2025). Research: energy management for fuel cell hybrid power systems.
 - Other sections contain explicit temporary placeholders; replace them when the information is ready.
 

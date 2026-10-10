@@ -18,6 +18,21 @@ Previously, I received a B.Eng. degree in Electronic Information Engineering fro
 
 My research focuses on **energy management for fuel cell hybrid power systems**.
 
+<h1 id="projects">Projects</h1>
+
+<div class="homepage-project">
+  <a class="homepage-project__preview" href="{{ '/images/inkdesk-editor.png' | relative_url }}" aria-label="View the InkDesk editor screenshot">
+    <img src="{{ '/images/inkdesk-editor.png' | relative_url }}" alt="InkDesk layout editor with an e-paper canvas and widget palette" loading="lazy" width="2640" height="1704">
+  </a>
+  <div class="homepage-project__content">
+    <h2 class="homepage-project__title"><img src="{{ '/images/inkdesk-logo.png' | relative_url }}" alt="" width="40" height="40">InkDesk</h2>
+    <p class="homepage-project__subtitle">A desktop companion for e-paper dashboards</p>
+    <p>InkDesk is an open-source macOS app with ESP-IDF firmware for the Seeed reTerminal E1001. Its drag-and-drop editor brings together to-do lists, notes, images, task progress, and optional AI-generated cards, with local-network synchronization and background menu bar operation.</p>
+    <p class="homepage-project__meta">SwiftUI &middot; ESP32-S3 &middot; ESP-IDF &middot; MIT License</p>
+    <p class="homepage-project__links"><a href="https://github.com/YujieYang-ZJU/InkDesk"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a><a href="https://github.com/YujieYang-ZJU/InkDesk#readme">Documentation</a></p>
+  </div>
+</div>
+
 <h1 id="news">News</h1>
 
 <p class="coming-soon">Updates will be added soon.</p>

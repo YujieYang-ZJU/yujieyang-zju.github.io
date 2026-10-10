@@ -41,9 +41,17 @@ My research focuses on **energy management for fuel cell hybrid power systems**.
 
 <article class="publication-card" aria-labelledby="pemfc-publication-title">
   <div class="publication-card__image">
-    <a href="https://ieeexplore.ieee.org/document/11185265" target="_blank" rel="noopener noreferrer" aria-label="Read the PEMFC temperature regulation paper on IEEE Xplore">
-      <img src="{{ '/images/pemfc-temperature-cover.svg' | relative_url }}" alt="Paper information cover: PEMFC temperature regulation using generalized data-enabled predictive control" loading="lazy" width="760" height="420">
-    </a>
+    <div class="publication-card__figures">
+      <a href="{{ '/images/pemfc-hierarchical-control.png' | relative_url }}" title="Fig. 2. Proposed hierarchical control strategy" aria-label="Enlarge Fig. 2: proposed hierarchical control strategy">
+        <img src="{{ '/images/pemfc-hierarchical-control.png' | relative_url }}" alt="Hierarchical control framework with upper-level optimal temperature determination and lower-level data-enabled predictive control" loading="lazy" width="823" height="947">
+        <span class="publication-card__figure-label">Fig. 2</span>
+      </a>
+      <a href="{{ '/images/pemfc-temperature-tracking.png' | relative_url }}" title="Fig. 11. Stack temperature variation under different control strategies in Case 2" aria-label="Enlarge Fig. 11: stack temperature tracking comparison">
+        <img src="{{ '/images/pemfc-temperature-tracking.png' | relative_url }}" alt="Stack temperature tracking comparison for PID, MPC, DeePC, and GDeePC, with protection-based temperature adjustments and four enlarged details" loading="lazy" width="1610" height="773">
+        <span class="publication-card__figure-label">Fig. 11</span>
+      </a>
+    </div>
+    <p class="publication-card__image-hint">Click a figure to enlarge</p>
     <span class="publication-card__badge">TIE 2026</span>
   </div>
   <div class="publication-card__content">

@@ -197,13 +197,46 @@ h1:before, .anchor:before {
     &__image {
         position: relative;
         min-width: 0;
+        padding: 2.25rem .35rem .35rem;
+        background: #fff;
+        box-shadow: 3px 5px 10px rgba(0, 0, 0, .22);
 
         img {
             display: block;
             width: 100%;
             height: auto;
-            box-shadow: 3px 5px 10px rgba(0, 0, 0, .22);
         }
+    }
+
+    &__figures {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 2.4fr);
+        gap: .35rem;
+        align-items: start;
+
+        a {
+            display: block;
+            min-width: 0;
+            color: #6b7280;
+            text-decoration: none;
+
+            &:hover .publication-card__figure-label { text-decoration: underline; }
+            &:focus-visible { outline: 3px solid #216baf; outline-offset: 2px; }
+        }
+    }
+
+    &__figure-label {
+        display: block;
+        margin-top: .25rem;
+        font-size: .65em;
+        text-align: center;
+    }
+
+    &__image .publication-card__image-hint {
+        margin: .3rem 0 0;
+        color: #6b7280;
+        font-size: .65em;
+        text-align: center;
     }
 
     &__badge {

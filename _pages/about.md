@@ -39,7 +39,45 @@ My research focuses on **energy management for fuel cell hybrid power systems**.
 
 <h1 id="publications">Selected Publications</h1>
 
-<p class="coming-soon">Selected publications will be added soon.</p>
+<article class="publication-card" aria-labelledby="pemfc-publication-title">
+  <div class="publication-card__image">
+    <a href="https://ieeexplore.ieee.org/document/11185265" target="_blank" rel="noopener noreferrer" aria-label="Read the PEMFC temperature regulation paper on IEEE Xplore">
+      <img src="{{ '/images/pemfc-temperature-cover.svg' | relative_url }}" alt="Paper information cover: PEMFC temperature regulation using generalized data-enabled predictive control" loading="lazy" width="760" height="420">
+    </a>
+    <span class="publication-card__badge">TIE 2026</span>
+  </div>
+  <div class="publication-card__content">
+    <h2 id="pemfc-publication-title" class="publication-card__title"><a href="https://ieeexplore.ieee.org/document/11185265" target="_blank" rel="noopener noreferrer">Hierarchical Optimal Temperature Regulation for PEMFCs via Generalized Data-Enabled Predictive Control</a></h2>
+    <p class="publication-card__authors">Haisong Xu, <strong>Yujie Yang</strong>, Zheng-Guang Wu, Hongye Su, Lei Wang</p>
+    <p class="publication-card__venue"><em>IEEE Transactions on Industrial Electronics</em>, 73(2): 3083–3092, 2026.</p>
+    <div class="publication-card__actions">
+      <a class="publication-card__button" href="https://ieeexplore.ieee.org/document/11185265" target="_blank" rel="noopener noreferrer">PDF</a>
+      <a class="publication-card__button" href="{{ '/files/xu2026hierarchical.bib' | relative_url }}" data-citation-dialog="pemfc-citation" aria-haspopup="dialog" aria-controls="pemfc-citation">Cite</a>
+    </div>
+    <p class="publication-card__doi"><a href="https://doi.org/10.1109/TIE.2025.3603075" target="_blank" rel="noopener noreferrer">DOI: 10.1109/TIE.2025.3603075</a></p>
+  </div>
+</article>
+
+<dialog id="pemfc-citation" class="publication-citation" aria-labelledby="pemfc-citation-title">
+  <h2 id="pemfc-citation-title">BibTeX Citation</h2>
+  <pre><code>@article{xu2026hierarchical,
+  author = {Xu, Haisong and Yang, Yujie and Wu, Zheng-Guang and Su, Hongye and Wang, Lei},
+  title = {Hierarchical Optimal Temperature Regulation for {PEMFCs} via Generalized Data-Enabled Predictive Control},
+  journal = {IEEE Transactions on Industrial Electronics},
+  year = {2026},
+  volume = {73},
+  number = {2},
+  pages = {3083--3092},
+  doi = {10.1109/TIE.2025.3603075},
+  url = {https://ieeexplore.ieee.org/document/11185265}
+}</code></pre>
+  <div class="publication-citation__actions">
+    <button type="button" class="publication-card__button" data-copy-citation>Copy citation</button>
+    <a href="{{ '/files/xu2026hierarchical.bib' | relative_url }}" download>Download .bib</a>
+    <form method="dialog"><button class="publication-card__button" aria-label="Close citation">Close</button></form>
+  </div>
+  <p class="publication-citation__status" role="status" aria-live="polite"></p>
+</dialog>
 
 <h1 id="education">Education</h1>
 

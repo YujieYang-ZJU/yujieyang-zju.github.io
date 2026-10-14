@@ -118,6 +118,19 @@ My research focuses on **energy management for fuel cell hybrid power systems**.
 
 <h1 id="projects">Projects</h1>
 
+<article class="homepage-project" aria-labelledby="cudy-project-title">
+  <a class="homepage-project__preview" href="https://github.com/YujieYang-ZJU/cudy-tr3600-usb-build" aria-label="View the Cudy TR3600 USB networking project on GitHub">
+    <img src="{{ '/images/cudy-usb-networking.svg' | relative_url }}" alt="ZTE F50 Pro connected to a Cudy TR3600 V1 router through USB CDC NCM networking" loading="lazy" width="1200" height="760">
+  </a>
+  <div class="homepage-project__content">
+    <h2 id="cudy-project-title" class="homepage-project__title">Cudy TR3600 USB Networking</h2>
+    <p class="homepage-project__subtitle">USB tethering for a portable OpenWrt router</p>
+    <p>A community OpenWrt project enabling USB internet sharing between the ZTE F50 Pro and Cudy TR3600 V1. It provides drivers tested on a specific Crostia v1.9 build, corresponding source code, build scripts, and installation guides. USB connectivity and automatic recovery after reboot have been verified on this device setup.</p>
+    <p class="homepage-project__meta">OpenWrt &middot; Linux &middot; USB tethering &middot; CDC NCM</p>
+    <p class="homepage-project__links"><a href="https://github.com/YujieYang-ZJU/cudy-tr3600-usb-build"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a><a href="https://github.com/YujieYang-ZJU/cudy-tr3600-usb-build/blob/main/docs/INSTALL.md">Installation Guide</a><a href="https://github.com/YujieYang-ZJU/cudy-tr3600-usb-build/releases">Downloads</a></p>
+  </div>
+</article>
+
 <div class="homepage-project">
   <a class="homepage-project__preview" href="{{ '/images/inkdesk-editor.png' | relative_url }}" aria-label="View the InkDesk editor screenshot">
     <img src="{{ '/images/inkdesk-editor.png' | relative_url }}" alt="InkDesk layout editor with an e-paper canvas and widget palette" loading="lazy" width="2640" height="1704">

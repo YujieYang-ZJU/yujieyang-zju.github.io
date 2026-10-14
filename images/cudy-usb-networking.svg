@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Cudy TR3600 USB Networking</title>
+  <desc id="desc">A ZTE F50 Pro shares its internet connection with a Cudy TR3600 V1 router over a USB CDC NCM connection.</desc>
+  <rect width="1200" height="760" fill="#f4f7fb"/>
+  <circle cx="76" cy="73" r="8" fill="#3474bc"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="100" y="83" fill="#49647f" font-size="26" font-weight="700" letter-spacing="3">OPENWRT / COMMUNITY PROJECT</text>
+    <text x="68" y="171" fill="#203b58" font-size="64" font-weight="700">USB tethering</text>
+    <text x="71" y="222" fill="#5b7087" font-size="32">A wired link for a portable router</text>
+    <rect x="134" y="294" width="190" height="250" rx="28" fill="#fff" stroke="#b5c6d8" stroke-width="4"/>
+    <rect x="167" y="331" width="124" height="99" rx="12" fill="#e9f1fa"/>
+    <path d="M194 368q35-29 70 0m-57 15q22-18 44 0" fill="none" stroke="#3474bc" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="229" cy="401" r="5" fill="#3474bc"/>
+    <circle cx="229" cy="487" r="9" fill="#4b957a"/>
+    <path d="M324 431h440" fill="none" stroke="#3474bc" stroke-width="9" stroke-linecap="round"/>
+    <rect x="411" y="397" width="266" height="67" rx="33.5" fill="#3474bc"/>
+    <text x="544" y="440" text-anchor="middle" fill="#fff" font-size="29" font-weight="700">USB / CDC NCM</text>
+    <rect x="764" y="356" width="302" height="168" rx="26" fill="#fff" stroke="#b5c6d8" stroke-width="4"/>
+    <path d="M818 379h195" stroke="#d8e3ef" stroke-width="5" stroke-linecap="round"/>
+    <rect x="799" y="441" width="41" height="23" rx="5" fill="#203b58"/>
+    <circle cx="925" cy="452" r="7" fill="#4b957a"/>
+    <circle cx="954" cy="452" r="7" fill="#4b957a"/>
+    <circle cx="983" cy="452" r="7" fill="#b5c6d8"/>
+    <path d="M872 310q43-35 86 0m-70 17q27-22 54 0" fill="none" stroke="#3474bc" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="915" cy="341" r="5" fill="#3474bc"/>
+    <text x="229" y="598" text-anchor="middle" fill="#203b58" font-size="35" font-weight="700">ZTE F50 Pro</text>
+    <text x="915" y="598" text-anchor="middle" fill="#203b58" font-size="35" font-weight="700">Cudy TR3600 V1</text>
+    <path d="M68 656h1064" stroke="#d8e3ef" stroke-width="2"/>
+    <text x="68" y="708" fill="#5b7087" font-size="28">Tested drivers · Matching source · Build scripts</text>
+  </g>
+</svg>
